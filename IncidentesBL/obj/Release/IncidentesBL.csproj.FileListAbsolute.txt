@@ -1,0 +1,9 @@
+C:\ProyMon\Seguridad\IncidentesBL\bin\Release\IncidentesBL.dll
+C:\ProyMon\Seguridad\IncidentesBL\bin\Release\IncidentesBL.pdb
+C:\ProyMon\Seguridad\IncidentesBL\bin\Release\IncidentesADO.dll
+C:\ProyMon\Seguridad\IncidentesBL\bin\Release\IncidentesBE.dll
+C:\ProyMon\Seguridad\IncidentesBL\bin\Release\IncidentesADO.pdb
+C:\ProyMon\Seguridad\IncidentesBL\bin\Release\IncidentesBE.pdb
+C:\ProyMon\Seguridad\IncidentesBL\obj\Release\IncidentesBL.csprojResolveAssemblyReference.cache
+C:\ProyMon\Seguridad\IncidentesBL\obj\Release\IncidentesBL.dll
+C:\ProyMon\Seguridad\IncidentesBL\obj\Release\IncidentesBL.pdb

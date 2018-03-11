@@ -1,0 +1,7 @@
+C:\ProyMon\Seguridad\IncidentesADO\bin\Release\IncidentesADO.dll
+C:\ProyMon\Seguridad\IncidentesADO\bin\Release\IncidentesADO.pdb
+C:\ProyMon\Seguridad\IncidentesADO\bin\Release\IncidentesBE.dll
+C:\ProyMon\Seguridad\IncidentesADO\bin\Release\IncidentesBE.pdb
+C:\ProyMon\Seguridad\IncidentesADO\obj\Release\IncidentesADO.csprojResolveAssemblyReference.cache
+C:\ProyMon\Seguridad\IncidentesADO\obj\Release\IncidentesADO.dll
+C:\ProyMon\Seguridad\IncidentesADO\obj\Release\IncidentesADO.pdb

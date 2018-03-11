@@ -1,0 +1,5 @@
+C:\ProyMon\Seguridad\IncidentesBE\bin\Release\IncidentesBE.dll
+C:\ProyMon\Seguridad\IncidentesBE\bin\Release\IncidentesBE.pdb
+C:\ProyMon\Seguridad\IncidentesBE\obj\Release\IncidentesBE.csprojResolveAssemblyReference.cache
+C:\ProyMon\Seguridad\IncidentesBE\obj\Release\IncidentesBE.dll
+C:\ProyMon\Seguridad\IncidentesBE\obj\Release\IncidentesBE.pdb

@@ -1,0 +1,14 @@
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesWEB.dll.config
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesWEB.dll
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesWEB.pdb
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesBE.dll
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesBL.dll
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesADO.dll
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesBE.pdb
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesBL.pdb
+C:\ProyMon\Seguridad\IncidentesWEB\bin\IncidentesADO.pdb
+C:\ProyMon\Seguridad\IncidentesWEB\obj\Release\IncidentesWEB.csprojResolveAssemblyReference.cache
+C:\ProyMon\Seguridad\IncidentesWEB\obj\Release\RdlCompile.cache
+C:\ProyMon\Seguridad\IncidentesWEB\obj\Release\RdlCompile.compiled
+C:\ProyMon\Seguridad\IncidentesWEB\obj\Release\IncidentesWEB.dll
+C:\ProyMon\Seguridad\IncidentesWEB\obj\Release\IncidentesWEB.pdb
