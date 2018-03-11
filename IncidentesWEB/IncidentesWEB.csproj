@@ -237,6 +237,7 @@
     <Content Include="Indicadores\css\style_cms.css" />
     <Content Include="Indicadores\Default.aspx" />
     <Content Include="Indicadores\download.aspx" />
+    <Content Include="Indicadores\frmReporteCartaAll.aspx" />
     <Content Include="Indicadores\frmReporteEvaluacionAll.aspx" />
     <Content Include="Indicadores\Images\add - Copy.jpg" />
     <Content Include="Indicadores\Images\add.jpg" />
@@ -1518,6 +1519,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dsIndicadores.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Indicadores\frmReporteCartaAll.aspx.cs">
+      <DependentUpon>frmReporteCartaAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Indicadores\frmReporteCartaAll.aspx.designer.cs">
+      <DependentUpon>frmReporteCartaAll.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Indicadores\frmReporteEvaluacionAll.aspx.cs">
       <DependentUpon>frmReporteEvaluacionAll.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1576,6 +1584,7 @@
     </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
@@ -2172,6 +2181,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Indicadores\Reportes\rptCartaAll.rdlc" />
     <EmbeddedResource Include="Indicadores\Reportes\rptEvaColega.rdlc" />
     <EmbeddedResource Include="Indicadores\Reportes\rptEvaColegaAll.rdlc" />
     <EmbeddedResource Include="Indicadores\Reportes\rptEvaluacionesFind.rdlc" />
