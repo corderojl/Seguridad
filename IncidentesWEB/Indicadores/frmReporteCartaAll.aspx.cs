@@ -44,7 +44,7 @@ namespace IncidentesWEB.Indicadores
             ReportDataSource rds = new ReportDataSource("DataSet1", dt);
 
             ReportViewer1.LocalReport.DataSources.Add(rds);
-            ReportViewer1.LocalReport.ReportPath = "Indicadores\\Reportes\\rptCartaAll.rdlc";
+            ReportViewer1.LocalReport.ReportPath = "Indicadores\\Reportes\\rptCartaPremio.rdlc";
 
             //ReportParameter[] rptParam = new ReportParameter[] {
             //   new ReportParameter("Evaluacion_id", _Evaluacion_id.ToString()) 
@@ -57,7 +57,7 @@ namespace IncidentesWEB.Indicadores
             string conn = System.Configuration.ConfigurationManager.ConnectionStrings["DB_IndicadoresConnectionString"].ConnectionString;
             using (SqlConnection cn = new SqlConnection(conn))
             {
-                SqlCommand cmd = new SqlCommand("sp_ListarEVA_EvaluacionByCarta", cn);
+                SqlCommand cmd = new SqlCommand("sp_ListarEVA_EvaluacionByPremio", cn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add("@Anio", SqlDbType.VarChar, 7).Value = Anio;
                 cmd.Parameters.Add("@lider_id", SqlDbType.VarChar, 5).Value = _Lider;

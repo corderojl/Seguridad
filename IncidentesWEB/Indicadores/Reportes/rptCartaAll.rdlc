@@ -6,12 +6,12 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>25.99583cm</Width>
+              <Width>18.19063cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>27.85674cm</Height>
+              <Height>27.99785cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -39,8 +39,8 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox1</rd:DefaultName>
-                          <Top>1.21391cm</Top>
-                          <Left>1.53141cm</Left>
+                          <Top>1.3426cm</Top>
+                          <Left>1.10808cm</Left>
                           <Height>0.6cm</Height>
                           <Width>2.92333cm</Width>
                           <Style>
@@ -72,10 +72,10 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox3</rd:DefaultName>
-                          <Top>1.21391cm</Top>
-                          <Left>15.98167cm</Left>
+                          <Top>0.42016cm</Top>
+                          <Left>10.45188cm</Left>
                           <Height>0.6cm</Height>
-                          <Width>10.01417cm</Width>
+                          <Width>6.81271cm</Width>
                           <ZIndex>1</ZIndex>
                           <Style>
                             <Border>
@@ -110,9 +110,9 @@
                           </Paragraphs>
                           <rd:DefaultName>Textbox1</rd:DefaultName>
                           <Top>2.11899cm</Top>
-                          <Left>1.53141cm</Left>
+                          <Left>1.10808cm</Left>
                           <Height>0.6cm</Height>
-                          <Width>11.89271cm</Width>
+                          <Width>8.18854cm</Width>
                           <ZIndex>2</ZIndex>
                           <Style>
                             <Border>
@@ -147,7 +147,7 @@
                           </Paragraphs>
                           <rd:DefaultName>Textbox1</rd:DefaultName>
                           <Top>2.89538cm</Top>
-                          <Left>1.53141cm</Left>
+                          <Left>1.10808cm</Left>
                           <Height>0.6cm</Height>
                           <Width>8.18854cm</Width>
                           <ZIndex>3</ZIndex>
@@ -176,11 +176,234 @@
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>Textbox6</rd:DefaultName>
-                          <Top>4.37127cm</Top>
-                          <Left>1.53141cm</Left>
+                          <Top>3.67177cm</Top>
+                          <Left>1.10808cm</Left>
                           <Height>0.6cm</Height>
                           <Width>2.5cm</Width>
                           <ZIndex>4</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox5">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Ref.        </Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Calibri</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Normal</FontWeight>
+                                    <TextDecoration>None</TextDecoration>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value>Comunicación de resultado de evaluación de desempeño</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Calibri</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Normal</FontWeight>
+                                    <TextDecoration>Underline</TextDecoration>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Calibri</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Normal</FontWeight>
+                                    <TextDecoration>Underline</TextDecoration>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <LeftIndent>0cm</LeftIndent>
+                              <RightIndent>0cm</RightIndent>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox5</rd:DefaultName>
+                          <Top>4.44816cm</Top>
+                          <Left>1.10808cm</Left>
+                          <Height>0.6cm</Height>
+                          <Width>12.21021cm</Width>
+                          <ZIndex>5</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox7">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>De nuestra consideración:</Value>
+                                  <Style>
+                                    <FontStyle>Normal</FontStyle>
+                                    <FontFamily>Calibri</FontFamily>
+                                    <FontSize>11pt</FontSize>
+                                    <FontWeight>Normal</FontWeight>
+                                    <TextDecoration>None</TextDecoration>
+                                    <Color>#000000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox7</rd:DefaultName>
+                          <Top>5.22455cm</Top>
+                          <Left>1.10808cm</Left>
+                          <Height>0.6cm</Height>
+                          <Width>9.61729cm</Width>
+                          <ZIndex>6</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Año">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Por medio de la presente, nos es grato dirigirnos a usted a efectos de informarle la finalización de la revisión final del año </Value>
+                                  <Style />
+                                </TextRun>
+                                <TextRun>
+                                  <Value>=First(Fields!Año.Value)</Value>
+                                  <Style />
+                                </TextRun>
+                                <TextRun>
+                                  <Value>.</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Como resultado de dicha evaluación, se tiene que en su caso la calificación es la siguiente:</Value>
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Año</rd:DefaultName>
+                          <Top>6.00287cm</Top>
+                          <Left>1.10808cm</Left>
+                          <Height>1.84354cm</Height>
+                          <Width>16.15651cm</Width>
+                          <ZIndex>7</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Clasificacion">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=First(Fields!Clasificacion.Value)</Value>
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Clasificacion</rd:DefaultName>
+                          <Top>8.0228cm</Top>
+                          <Left>1.10808cm</Left>
+                          <Height>0.6cm</Height>
+                          <Width>3.91088cm</Width>
+                          <ZIndex>8</ZIndex>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <Textbox Name="Textbox10">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style />
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox10</rd:DefaultName>
+                          <Top>8.79919cm</Top>
+                          <Left>1.10808cm</Left>
+                          <Height>0.6cm</Height>
+                          <Width>2.5cm</Width>
+                          <ZIndex>9</ZIndex>
                           <Style>
                             <Border>
                               <Style>None</Style>
@@ -222,10 +445,8 @@
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
-        <Top>0.17639cm</Top>
-        <Left>1.98438cm</Left>
-        <Height>27.85674cm</Height>
-        <Width>25.99583cm</Width>
+        <Height>27.99785cm</Height>
+        <Width>18.19063cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -240,10 +461,10 @@
       </Border>
     </Style>
   </Body>
-  <Width>297mm</Width>
+  <Width>181.90631mm</Width>
   <Page>
     <PageHeader>
-      <Height>2.54cm</Height>
+      <Height>2.06375cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -251,8 +472,8 @@
           <Source>Embedded</Source>
           <Value>LogoSamll</Value>
           <Sizing>FitProportional</Sizing>
-          <Top>1.38396cm</Top>
-          <Left>1.98438cm</Left>
+          <Top>0.90771cm</Top>
+          <Left>0.52917cm</Left>
           <Height>1.15604cm</Height>
           <Width>4.48979cm</Width>
           <Style>

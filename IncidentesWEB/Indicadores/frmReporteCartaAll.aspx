@@ -86,7 +86,7 @@
                         </tr>
                     </table>
                     </div>
-                    <rsweb:ReportViewer ID="ReportViewer1" runat="server" Height="580px" Width="700px"></rsweb:ReportViewer>
+                    <rsweb:ReportViewer ID="ReportViewer1" runat="server" Height="580px" Width="758px"></rsweb:ReportViewer>
                 </div>
             </div>
         </div>

@@ -2182,6 +2182,7 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Indicadores\Reportes\rptCartaAll.rdlc" />
+    <EmbeddedResource Include="Indicadores\Reportes\rptCartaPremio.rdlc" />
     <EmbeddedResource Include="Indicadores\Reportes\rptEvaColega.rdlc" />
     <EmbeddedResource Include="Indicadores\Reportes\rptEvaColegaAll.rdlc" />
     <EmbeddedResource Include="Indicadores\Reportes\rptEvaluacionesFind.rdlc" />

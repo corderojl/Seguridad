@@ -32,7 +32,7 @@ namespace IncidentesWEB.Indicadores {
         
         private sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAllDataTable tablesp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAll;
         
-        private sp_ListarEVA_EvaluacionByCartaDataTable tablesp_ListarEVA_EvaluacionByCarta;
+        private sp_ListarEVA_EvaluacionByPremioDataTable tablesp_ListarEVA_EvaluacionByPremio;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -74,8 +74,8 @@ namespace IncidentesWEB.Indicadores {
                 if ((ds.Tables["sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAll"] != null)) {
                     base.Tables.Add(new sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAllDataTable(ds.Tables["sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAll"]));
                 }
-                if ((ds.Tables["sp_ListarEVA_EvaluacionByCarta"] != null)) {
-                    base.Tables.Add(new sp_ListarEVA_EvaluacionByCartaDataTable(ds.Tables["sp_ListarEVA_EvaluacionByCarta"]));
+                if ((ds.Tables["sp_ListarEVA_EvaluacionByPremio"] != null)) {
+                    base.Tables.Add(new sp_ListarEVA_EvaluacionByPremioDataTable(ds.Tables["sp_ListarEVA_EvaluacionByPremio"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -139,9 +139,9 @@ namespace IncidentesWEB.Indicadores {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public sp_ListarEVA_EvaluacionByCartaDataTable sp_ListarEVA_EvaluacionByCarta {
+        public sp_ListarEVA_EvaluacionByPremioDataTable sp_ListarEVA_EvaluacionByPremio {
             get {
-                return this.tablesp_ListarEVA_EvaluacionByCarta;
+                return this.tablesp_ListarEVA_EvaluacionByPremio;
             }
         }
         
@@ -224,8 +224,8 @@ namespace IncidentesWEB.Indicadores {
                 if ((ds.Tables["sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAll"] != null)) {
                     base.Tables.Add(new sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAllDataTable(ds.Tables["sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAll"]));
                 }
-                if ((ds.Tables["sp_ListarEVA_EvaluacionByCarta"] != null)) {
-                    base.Tables.Add(new sp_ListarEVA_EvaluacionByCartaDataTable(ds.Tables["sp_ListarEVA_EvaluacionByCarta"]));
+                if ((ds.Tables["sp_ListarEVA_EvaluacionByPremio"] != null)) {
+                    base.Tables.Add(new sp_ListarEVA_EvaluacionByPremioDataTable(ds.Tables["sp_ListarEVA_EvaluacionByPremio"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -284,10 +284,10 @@ namespace IncidentesWEB.Indicadores {
                     this.tablesp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAll.InitVars();
                 }
             }
-            this.tablesp_ListarEVA_EvaluacionByCarta = ((sp_ListarEVA_EvaluacionByCartaDataTable)(base.Tables["sp_ListarEVA_EvaluacionByCarta"]));
+            this.tablesp_ListarEVA_EvaluacionByPremio = ((sp_ListarEVA_EvaluacionByPremioDataTable)(base.Tables["sp_ListarEVA_EvaluacionByPremio"]));
             if ((initTable == true)) {
-                if ((this.tablesp_ListarEVA_EvaluacionByCarta != null)) {
-                    this.tablesp_ListarEVA_EvaluacionByCarta.InitVars();
+                if ((this.tablesp_ListarEVA_EvaluacionByPremio != null)) {
+                    this.tablesp_ListarEVA_EvaluacionByPremio.InitVars();
                 }
             }
         }
@@ -308,8 +308,8 @@ namespace IncidentesWEB.Indicadores {
             base.Tables.Add(this.tablesp_ListarEVA_EvaluacionDetalleByEvaluacionReporte1);
             this.tablesp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAll = new sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAllDataTable();
             base.Tables.Add(this.tablesp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAll);
-            this.tablesp_ListarEVA_EvaluacionByCarta = new sp_ListarEVA_EvaluacionByCartaDataTable();
-            base.Tables.Add(this.tablesp_ListarEVA_EvaluacionByCarta);
+            this.tablesp_ListarEVA_EvaluacionByPremio = new sp_ListarEVA_EvaluacionByPremioDataTable();
+            base.Tables.Add(this.tablesp_ListarEVA_EvaluacionByPremio);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -338,7 +338,7 @@ namespace IncidentesWEB.Indicadores {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private bool ShouldSerializesp_ListarEVA_EvaluacionByCarta() {
+        private bool ShouldSerializesp_ListarEVA_EvaluacionByPremio() {
             return false;
         }
         
@@ -410,7 +410,7 @@ namespace IncidentesWEB.Indicadores {
         public delegate void sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAllRowChangeEventHandler(object sender, sp_ListarEVA_EvaluacionDetalleByEvaluacionReporteAllRowChangeEvent e);
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public delegate void sp_ListarEVA_EvaluacionByCartaRowChangeEventHandler(object sender, sp_ListarEVA_EvaluacionByCartaRowChangeEvent e);
+        public delegate void sp_ListarEVA_EvaluacionByPremioRowChangeEventHandler(object sender, sp_ListarEVA_EvaluacionByPremioRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
@@ -2583,30 +2583,42 @@ namespace IncidentesWEB.Indicadores {
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class sp_ListarEVA_EvaluacionByCartaDataTable : global::System.Data.TypedTableBase<sp_ListarEVA_EvaluacionByCartaRow> {
+        public partial class sp_ListarEVA_EvaluacionByPremioDataTable : global::System.Data.TypedTableBase<sp_ListarEVA_EvaluacionByPremioRow> {
             
-            private global::System.Data.DataColumn columnID;
+            private global::System.Data.DataColumn columnEvaluacion_id;
             
-            private global::System.Data.DataColumn columnEmpleado;
+            private global::System.Data.DataColumn columnEmpleado_id;
             
-            private global::System.Data.DataColumn columnSubCatgoria;
+            private global::System.Data.DataColumn columnFUNCIONARIO_NOME;
             
-            private global::System.Data.DataColumn columnFechaReg;
+            private global::System.Data.DataColumn columnSubCategoria_desc;
             
-            private global::System.Data.DataColumn columnDepartamento;
+            private global::System.Data.DataColumn columnFecha_registro;
+            
+            private global::System.Data.DataColumn columnDepartamento_id;
             
             private global::System.Data.DataColumn columnTipo;
             
             private global::System.Data.DataColumn columnMes;
             
-            private global::System.Data.DataColumn columnAño;
+            private global::System.Data.DataColumn columnMonto;
+            
+            private global::System.Data.DataColumn columnAnio;
+            
+            private global::System.Data.DataColumn columnPuntos;
             
             private global::System.Data.DataColumn columnClasificacion;
             
+            private global::System.Data.DataColumn columnactivo;
+            
+            private global::System.Data.DataColumn columnEstado;
+            
+            private global::System.Data.DataColumn columnSubCategoria_id;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public sp_ListarEVA_EvaluacionByCartaDataTable() {
-                this.TableName = "sp_ListarEVA_EvaluacionByCarta";
+            public sp_ListarEVA_EvaluacionByPremioDataTable() {
+                this.TableName = "sp_ListarEVA_EvaluacionByPremio";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -2614,7 +2626,7 @@ namespace IncidentesWEB.Indicadores {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal sp_ListarEVA_EvaluacionByCartaDataTable(global::System.Data.DataTable table) {
+            internal sp_ListarEVA_EvaluacionByPremioDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -2631,48 +2643,56 @@ namespace IncidentesWEB.Indicadores {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            protected sp_ListarEVA_EvaluacionByCartaDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected sp_ListarEVA_EvaluacionByPremioDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn IDColumn {
+            public global::System.Data.DataColumn Evaluacion_idColumn {
                 get {
-                    return this.columnID;
+                    return this.columnEvaluacion_id;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn EmpleadoColumn {
+            public global::System.Data.DataColumn Empleado_idColumn {
                 get {
-                    return this.columnEmpleado;
+                    return this.columnEmpleado_id;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn SubCatgoriaColumn {
+            public global::System.Data.DataColumn FUNCIONARIO_NOMEColumn {
                 get {
-                    return this.columnSubCatgoria;
+                    return this.columnFUNCIONARIO_NOME;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn FechaRegColumn {
+            public global::System.Data.DataColumn SubCategoria_descColumn {
                 get {
-                    return this.columnFechaReg;
+                    return this.columnSubCategoria_desc;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn DepartamentoColumn {
+            public global::System.Data.DataColumn Fecha_registroColumn {
                 get {
-                    return this.columnDepartamento;
+                    return this.columnFecha_registro;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn Departamento_idColumn {
+                get {
+                    return this.columnDepartamento_id;
                 }
             }
             
@@ -2694,9 +2714,25 @@ namespace IncidentesWEB.Indicadores {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn AñoColumn {
+            public global::System.Data.DataColumn MontoColumn {
                 get {
-                    return this.columnAño;
+                    return this.columnMonto;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn AnioColumn {
+                get {
+                    return this.columnAnio;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn PuntosColumn {
+                get {
+                    return this.columnPuntos;
                 }
             }
             
@@ -2705,6 +2741,30 @@ namespace IncidentesWEB.Indicadores {
             public global::System.Data.DataColumn ClasificacionColumn {
                 get {
                     return this.columnClasificacion;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn activoColumn {
+                get {
+                    return this.columnactivo;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn EstadoColumn {
+                get {
+                    return this.columnEstado;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn SubCategoria_idColumn {
+                get {
+                    return this.columnSubCategoria_id;
                 }
             }
             
@@ -2719,60 +2779,66 @@ namespace IncidentesWEB.Indicadores {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public sp_ListarEVA_EvaluacionByCartaRow this[int index] {
+            public sp_ListarEVA_EvaluacionByPremioRow this[int index] {
                 get {
-                    return ((sp_ListarEVA_EvaluacionByCartaRow)(this.Rows[index]));
+                    return ((sp_ListarEVA_EvaluacionByPremioRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event sp_ListarEVA_EvaluacionByCartaRowChangeEventHandler sp_ListarEVA_EvaluacionByCartaRowChanging;
+            public event sp_ListarEVA_EvaluacionByPremioRowChangeEventHandler sp_ListarEVA_EvaluacionByPremioRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event sp_ListarEVA_EvaluacionByCartaRowChangeEventHandler sp_ListarEVA_EvaluacionByCartaRowChanged;
+            public event sp_ListarEVA_EvaluacionByPremioRowChangeEventHandler sp_ListarEVA_EvaluacionByPremioRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event sp_ListarEVA_EvaluacionByCartaRowChangeEventHandler sp_ListarEVA_EvaluacionByCartaRowDeleting;
+            public event sp_ListarEVA_EvaluacionByPremioRowChangeEventHandler sp_ListarEVA_EvaluacionByPremioRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event sp_ListarEVA_EvaluacionByCartaRowChangeEventHandler sp_ListarEVA_EvaluacionByCartaRowDeleted;
+            public event sp_ListarEVA_EvaluacionByPremioRowChangeEventHandler sp_ListarEVA_EvaluacionByPremioRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Addsp_ListarEVA_EvaluacionByCartaRow(sp_ListarEVA_EvaluacionByCartaRow row) {
+            public void Addsp_ListarEVA_EvaluacionByPremioRow(sp_ListarEVA_EvaluacionByPremioRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public sp_ListarEVA_EvaluacionByCartaRow Addsp_ListarEVA_EvaluacionByCartaRow(string Empleado, string SubCatgoria, System.DateTime FechaReg, string Departamento, string Tipo, string Mes, string Año, string Clasificacion) {
-                sp_ListarEVA_EvaluacionByCartaRow rowsp_ListarEVA_EvaluacionByCartaRow = ((sp_ListarEVA_EvaluacionByCartaRow)(this.NewRow()));
+            public sp_ListarEVA_EvaluacionByPremioRow Addsp_ListarEVA_EvaluacionByPremioRow(short Empleado_id, string FUNCIONARIO_NOME, string SubCategoria_desc, System.DateTime Fecha_registro, short Departamento_id, string Tipo, string Mes, string Monto, string Anio, float Puntos, string Clasificacion, bool activo, short Estado, int SubCategoria_id) {
+                sp_ListarEVA_EvaluacionByPremioRow rowsp_ListarEVA_EvaluacionByPremioRow = ((sp_ListarEVA_EvaluacionByPremioRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
-                        Empleado,
-                        SubCatgoria,
-                        FechaReg,
-                        Departamento,
+                        Empleado_id,
+                        FUNCIONARIO_NOME,
+                        SubCategoria_desc,
+                        Fecha_registro,
+                        Departamento_id,
                         Tipo,
                         Mes,
-                        Año,
-                        Clasificacion};
-                rowsp_ListarEVA_EvaluacionByCartaRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowsp_ListarEVA_EvaluacionByCartaRow);
-                return rowsp_ListarEVA_EvaluacionByCartaRow;
+                        Monto,
+                        Anio,
+                        Puntos,
+                        Clasificacion,
+                        activo,
+                        Estado,
+                        SubCategoria_id};
+                rowsp_ListarEVA_EvaluacionByPremioRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowsp_ListarEVA_EvaluacionByPremioRow);
+                return rowsp_ListarEVA_EvaluacionByPremioRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public sp_ListarEVA_EvaluacionByCartaRow FindByID(int ID) {
-                return ((sp_ListarEVA_EvaluacionByCartaRow)(this.Rows.Find(new object[] {
-                            ID})));
+            public sp_ListarEVA_EvaluacionByPremioRow FindByEvaluacion_id(int Evaluacion_id) {
+                return ((sp_ListarEVA_EvaluacionByPremioRow)(this.Rows.Find(new object[] {
+                            Evaluacion_id})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                sp_ListarEVA_EvaluacionByCartaDataTable cln = ((sp_ListarEVA_EvaluacionByCartaDataTable)(base.Clone()));
+                sp_ListarEVA_EvaluacionByPremioDataTable cln = ((sp_ListarEVA_EvaluacionByPremioDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -2780,87 +2846,109 @@ namespace IncidentesWEB.Indicadores {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new sp_ListarEVA_EvaluacionByCartaDataTable();
+                return new sp_ListarEVA_EvaluacionByPremioDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnID = base.Columns["ID"];
-                this.columnEmpleado = base.Columns["Empleado"];
-                this.columnSubCatgoria = base.Columns["SubCatgoria"];
-                this.columnFechaReg = base.Columns["FechaReg"];
-                this.columnDepartamento = base.Columns["Departamento"];
+                this.columnEvaluacion_id = base.Columns["Evaluacion_id"];
+                this.columnEmpleado_id = base.Columns["Empleado_id"];
+                this.columnFUNCIONARIO_NOME = base.Columns["FUNCIONARIO_NOME"];
+                this.columnSubCategoria_desc = base.Columns["SubCategoria_desc"];
+                this.columnFecha_registro = base.Columns["Fecha_registro"];
+                this.columnDepartamento_id = base.Columns["Departamento_id"];
                 this.columnTipo = base.Columns["Tipo"];
                 this.columnMes = base.Columns["Mes"];
-                this.columnAño = base.Columns["Año"];
+                this.columnMonto = base.Columns["Monto"];
+                this.columnAnio = base.Columns["Anio"];
+                this.columnPuntos = base.Columns["Puntos"];
                 this.columnClasificacion = base.Columns["Clasificacion"];
+                this.columnactivo = base.Columns["activo"];
+                this.columnEstado = base.Columns["Estado"];
+                this.columnSubCategoria_id = base.Columns["SubCategoria_id"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnID = new global::System.Data.DataColumn("ID", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnID);
-                this.columnEmpleado = new global::System.Data.DataColumn("Empleado", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnEmpleado);
-                this.columnSubCatgoria = new global::System.Data.DataColumn("SubCatgoria", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnSubCatgoria);
-                this.columnFechaReg = new global::System.Data.DataColumn("FechaReg", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnFechaReg);
-                this.columnDepartamento = new global::System.Data.DataColumn("Departamento", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnDepartamento);
+                this.columnEvaluacion_id = new global::System.Data.DataColumn("Evaluacion_id", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEvaluacion_id);
+                this.columnEmpleado_id = new global::System.Data.DataColumn("Empleado_id", typeof(short), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEmpleado_id);
+                this.columnFUNCIONARIO_NOME = new global::System.Data.DataColumn("FUNCIONARIO_NOME", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFUNCIONARIO_NOME);
+                this.columnSubCategoria_desc = new global::System.Data.DataColumn("SubCategoria_desc", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSubCategoria_desc);
+                this.columnFecha_registro = new global::System.Data.DataColumn("Fecha_registro", typeof(global::System.DateTime), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFecha_registro);
+                this.columnDepartamento_id = new global::System.Data.DataColumn("Departamento_id", typeof(short), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnDepartamento_id);
                 this.columnTipo = new global::System.Data.DataColumn("Tipo", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnTipo);
                 this.columnMes = new global::System.Data.DataColumn("Mes", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnMes);
-                this.columnAño = new global::System.Data.DataColumn("Año", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnAño);
+                this.columnMonto = new global::System.Data.DataColumn("Monto", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnMonto);
+                this.columnAnio = new global::System.Data.DataColumn("Anio", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnAnio);
+                this.columnPuntos = new global::System.Data.DataColumn("Puntos", typeof(float), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnPuntos);
                 this.columnClasificacion = new global::System.Data.DataColumn("Clasificacion", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnClasificacion);
+                this.columnactivo = new global::System.Data.DataColumn("activo", typeof(bool), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnactivo);
+                this.columnEstado = new global::System.Data.DataColumn("Estado", typeof(short), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnEstado);
+                this.columnSubCategoria_id = new global::System.Data.DataColumn("SubCategoria_id", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnSubCategoria_id);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
-                                this.columnID}, true));
-                this.columnID.AutoIncrement = true;
-                this.columnID.AllowDBNull = false;
-                this.columnID.ReadOnly = true;
-                this.columnID.Unique = true;
-                this.columnEmpleado.AllowDBNull = false;
-                this.columnEmpleado.MaxLength = 250;
-                this.columnSubCatgoria.MaxLength = 50;
-                this.columnDepartamento.MaxLength = 50;
+                                this.columnEvaluacion_id}, true));
+                this.columnEvaluacion_id.AutoIncrement = true;
+                this.columnEvaluacion_id.AutoIncrementSeed = -1;
+                this.columnEvaluacion_id.AutoIncrementStep = -1;
+                this.columnEvaluacion_id.AllowDBNull = false;
+                this.columnEvaluacion_id.ReadOnly = true;
+                this.columnEvaluacion_id.Unique = true;
+                this.columnFUNCIONARIO_NOME.AllowDBNull = false;
+                this.columnFUNCIONARIO_NOME.MaxLength = 250;
+                this.columnSubCategoria_desc.MaxLength = 50;
                 this.columnTipo.ReadOnly = true;
                 this.columnTipo.MaxLength = 24;
                 this.columnMes.ReadOnly = true;
                 this.columnMes.MaxLength = 6;
-                this.columnAño.AllowDBNull = false;
-                this.columnAño.MaxLength = 7;
+                this.columnMonto.ReadOnly = true;
+                this.columnMonto.MaxLength = 424;
+                this.columnAnio.AllowDBNull = false;
+                this.columnAnio.MaxLength = 7;
                 this.columnClasificacion.MaxLength = 50;
+                this.columnactivo.AllowDBNull = false;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public sp_ListarEVA_EvaluacionByCartaRow Newsp_ListarEVA_EvaluacionByCartaRow() {
-                return ((sp_ListarEVA_EvaluacionByCartaRow)(this.NewRow()));
+            public sp_ListarEVA_EvaluacionByPremioRow Newsp_ListarEVA_EvaluacionByPremioRow() {
+                return ((sp_ListarEVA_EvaluacionByPremioRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new sp_ListarEVA_EvaluacionByCartaRow(builder);
+                return new sp_ListarEVA_EvaluacionByPremioRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(sp_ListarEVA_EvaluacionByCartaRow);
+                return typeof(sp_ListarEVA_EvaluacionByPremioRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.sp_ListarEVA_EvaluacionByCartaRowChanged != null)) {
-                    this.sp_ListarEVA_EvaluacionByCartaRowChanged(this, new sp_ListarEVA_EvaluacionByCartaRowChangeEvent(((sp_ListarEVA_EvaluacionByCartaRow)(e.Row)), e.Action));
+                if ((this.sp_ListarEVA_EvaluacionByPremioRowChanged != null)) {
+                    this.sp_ListarEVA_EvaluacionByPremioRowChanged(this, new sp_ListarEVA_EvaluacionByPremioRowChangeEvent(((sp_ListarEVA_EvaluacionByPremioRow)(e.Row)), e.Action));
                 }
             }
             
@@ -2868,8 +2956,8 @@ namespace IncidentesWEB.Indicadores {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.sp_ListarEVA_EvaluacionByCartaRowChanging != null)) {
-                    this.sp_ListarEVA_EvaluacionByCartaRowChanging(this, new sp_ListarEVA_EvaluacionByCartaRowChangeEvent(((sp_ListarEVA_EvaluacionByCartaRow)(e.Row)), e.Action));
+                if ((this.sp_ListarEVA_EvaluacionByPremioRowChanging != null)) {
+                    this.sp_ListarEVA_EvaluacionByPremioRowChanging(this, new sp_ListarEVA_EvaluacionByPremioRowChangeEvent(((sp_ListarEVA_EvaluacionByPremioRow)(e.Row)), e.Action));
                 }
             }
             
@@ -2877,8 +2965,8 @@ namespace IncidentesWEB.Indicadores {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.sp_ListarEVA_EvaluacionByCartaRowDeleted != null)) {
-                    this.sp_ListarEVA_EvaluacionByCartaRowDeleted(this, new sp_ListarEVA_EvaluacionByCartaRowChangeEvent(((sp_ListarEVA_EvaluacionByCartaRow)(e.Row)), e.Action));
+                if ((this.sp_ListarEVA_EvaluacionByPremioRowDeleted != null)) {
+                    this.sp_ListarEVA_EvaluacionByPremioRowDeleted(this, new sp_ListarEVA_EvaluacionByPremioRowChangeEvent(((sp_ListarEVA_EvaluacionByPremioRow)(e.Row)), e.Action));
                 }
             }
             
@@ -2886,14 +2974,14 @@ namespace IncidentesWEB.Indicadores {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.sp_ListarEVA_EvaluacionByCartaRowDeleting != null)) {
-                    this.sp_ListarEVA_EvaluacionByCartaRowDeleting(this, new sp_ListarEVA_EvaluacionByCartaRowChangeEvent(((sp_ListarEVA_EvaluacionByCartaRow)(e.Row)), e.Action));
+                if ((this.sp_ListarEVA_EvaluacionByPremioRowDeleting != null)) {
+                    this.sp_ListarEVA_EvaluacionByPremioRowDeleting(this, new sp_ListarEVA_EvaluacionByPremioRowChangeEvent(((sp_ListarEVA_EvaluacionByPremioRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Removesp_ListarEVA_EvaluacionByCartaRow(sp_ListarEVA_EvaluacionByCartaRow row) {
+            public void Removesp_ListarEVA_EvaluacionByPremioRow(sp_ListarEVA_EvaluacionByPremioRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -2920,7 +3008,7 @@ namespace IncidentesWEB.Indicadores {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "sp_ListarEVA_EvaluacionByCartaDataTable";
+                attribute2.FixedValue = "sp_ListarEVA_EvaluacionByPremioDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -4958,87 +5046,104 @@ namespace IncidentesWEB.Indicadores {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class sp_ListarEVA_EvaluacionByCartaRow : global::System.Data.DataRow {
+        public partial class sp_ListarEVA_EvaluacionByPremioRow : global::System.Data.DataRow {
             
-            private sp_ListarEVA_EvaluacionByCartaDataTable tablesp_ListarEVA_EvaluacionByCarta;
+            private sp_ListarEVA_EvaluacionByPremioDataTable tablesp_ListarEVA_EvaluacionByPremio;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal sp_ListarEVA_EvaluacionByCartaRow(global::System.Data.DataRowBuilder rb) : 
+            internal sp_ListarEVA_EvaluacionByPremioRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tablesp_ListarEVA_EvaluacionByCarta = ((sp_ListarEVA_EvaluacionByCartaDataTable)(this.Table));
+                this.tablesp_ListarEVA_EvaluacionByPremio = ((sp_ListarEVA_EvaluacionByPremioDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public int ID {
+            public int Evaluacion_id {
                 get {
-                    return ((int)(this[this.tablesp_ListarEVA_EvaluacionByCarta.IDColumn]));
+                    return ((int)(this[this.tablesp_ListarEVA_EvaluacionByPremio.Evaluacion_idColumn]));
                 }
                 set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.IDColumn] = value;
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.Evaluacion_idColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Empleado {
-                get {
-                    return ((string)(this[this.tablesp_ListarEVA_EvaluacionByCarta.EmpleadoColumn]));
-                }
-                set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.EmpleadoColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string SubCatgoria {
+            public short Empleado_id {
                 get {
                     try {
-                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByCarta.SubCatgoriaColumn]));
+                        return ((short)(this[this.tablesp_ListarEVA_EvaluacionByPremio.Empleado_idColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'SubCatgoria\' in table \'sp_ListarEVA_EvaluacionByCarta\' is D" +
-                                "BNull.", e);
-                    }
-                }
-                set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.SubCatgoriaColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public System.DateTime FechaReg {
-                get {
-                    try {
-                        return ((global::System.DateTime)(this[this.tablesp_ListarEVA_EvaluacionByCarta.FechaRegColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'FechaReg\' in table \'sp_ListarEVA_EvaluacionByCarta\' is DBNu" +
-                                "ll.", e);
-                    }
-                }
-                set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.FechaRegColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Departamento {
-                get {
-                    try {
-                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByCarta.DepartamentoColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Departamento\' in table \'sp_ListarEVA_EvaluacionByCarta\' is " +
+                        throw new global::System.Data.StrongTypingException("The value for column \'Empleado_id\' in table \'sp_ListarEVA_EvaluacionByPremio\' is " +
                                 "DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.DepartamentoColumn] = value;
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.Empleado_idColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string FUNCIONARIO_NOME {
+                get {
+                    return ((string)(this[this.tablesp_ListarEVA_EvaluacionByPremio.FUNCIONARIO_NOMEColumn]));
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.FUNCIONARIO_NOMEColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string SubCategoria_desc {
+                get {
+                    try {
+                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByPremio.SubCategoria_descColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'SubCategoria_desc\' in table \'sp_ListarEVA_EvaluacionByPremi" +
+                                "o\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.SubCategoria_descColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public System.DateTime Fecha_registro {
+                get {
+                    try {
+                        return ((global::System.DateTime)(this[this.tablesp_ListarEVA_EvaluacionByPremio.Fecha_registroColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Fecha_registro\' in table \'sp_ListarEVA_EvaluacionByPremio\' " +
+                                "is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.Fecha_registroColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public short Departamento_id {
+                get {
+                    try {
+                        return ((short)(this[this.tablesp_ListarEVA_EvaluacionByPremio.Departamento_idColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Departamento_id\' in table \'sp_ListarEVA_EvaluacionByPremio\'" +
+                                " is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.Departamento_idColumn] = value;
                 }
             }
             
@@ -5047,14 +5152,15 @@ namespace IncidentesWEB.Indicadores {
             public string Tipo {
                 get {
                     try {
-                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByCarta.TipoColumn]));
+                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByPremio.TipoColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Tipo\' in table \'sp_ListarEVA_EvaluacionByCarta\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Tipo\' in table \'sp_ListarEVA_EvaluacionByPremio\' is DBNull." +
+                                "", e);
                     }
                 }
                 set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.TipoColumn] = value;
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.TipoColumn] = value;
                 }
             }
             
@@ -5063,25 +5169,59 @@ namespace IncidentesWEB.Indicadores {
             public string Mes {
                 get {
                     try {
-                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByCarta.MesColumn]));
+                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByPremio.MesColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Mes\' in table \'sp_ListarEVA_EvaluacionByCarta\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Mes\' in table \'sp_ListarEVA_EvaluacionByPremio\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.MesColumn] = value;
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.MesColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Año {
+            public string Monto {
                 get {
-                    return ((string)(this[this.tablesp_ListarEVA_EvaluacionByCarta.AñoColumn]));
+                    try {
+                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByPremio.MontoColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Monto\' in table \'sp_ListarEVA_EvaluacionByPremio\' is DBNull" +
+                                ".", e);
+                    }
                 }
                 set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.AñoColumn] = value;
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.MontoColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string Anio {
+                get {
+                    return ((string)(this[this.tablesp_ListarEVA_EvaluacionByPremio.AnioColumn]));
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.AnioColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public float Puntos {
+                get {
+                    try {
+                        return ((float)(this[this.tablesp_ListarEVA_EvaluacionByPremio.PuntosColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Puntos\' in table \'sp_ListarEVA_EvaluacionByPremio\' is DBNul" +
+                                "l.", e);
+                    }
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.PuntosColumn] = value;
                 }
             }
             
@@ -5090,88 +5230,193 @@ namespace IncidentesWEB.Indicadores {
             public string Clasificacion {
                 get {
                     try {
-                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByCarta.ClasificacionColumn]));
+                        return ((string)(this[this.tablesp_ListarEVA_EvaluacionByPremio.ClasificacionColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Clasificacion\' in table \'sp_ListarEVA_EvaluacionByCarta\' is" +
-                                " DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Clasificacion\' in table \'sp_ListarEVA_EvaluacionByPremio\' i" +
+                                "s DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tablesp_ListarEVA_EvaluacionByCarta.ClasificacionColumn] = value;
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.ClasificacionColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsSubCatgoriaNull() {
-                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByCarta.SubCatgoriaColumn);
+            public bool activo {
+                get {
+                    return ((bool)(this[this.tablesp_ListarEVA_EvaluacionByPremio.activoColumn]));
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.activoColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetSubCatgoriaNull() {
-                this[this.tablesp_ListarEVA_EvaluacionByCarta.SubCatgoriaColumn] = global::System.Convert.DBNull;
+            public short Estado {
+                get {
+                    try {
+                        return ((short)(this[this.tablesp_ListarEVA_EvaluacionByPremio.EstadoColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'Estado\' in table \'sp_ListarEVA_EvaluacionByPremio\' is DBNul" +
+                                "l.", e);
+                    }
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.EstadoColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsFechaRegNull() {
-                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByCarta.FechaRegColumn);
+            public int SubCategoria_id {
+                get {
+                    try {
+                        return ((int)(this[this.tablesp_ListarEVA_EvaluacionByPremio.SubCategoria_idColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'SubCategoria_id\' in table \'sp_ListarEVA_EvaluacionByPremio\'" +
+                                " is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tablesp_ListarEVA_EvaluacionByPremio.SubCategoria_idColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetFechaRegNull() {
-                this[this.tablesp_ListarEVA_EvaluacionByCarta.FechaRegColumn] = global::System.Convert.DBNull;
+            public bool IsEmpleado_idNull() {
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.Empleado_idColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsDepartamentoNull() {
-                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByCarta.DepartamentoColumn);
+            public void SetEmpleado_idNull() {
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.Empleado_idColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetDepartamentoNull() {
-                this[this.tablesp_ListarEVA_EvaluacionByCarta.DepartamentoColumn] = global::System.Convert.DBNull;
+            public bool IsSubCategoria_descNull() {
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.SubCategoria_descColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetSubCategoria_descNull() {
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.SubCategoria_descColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsFecha_registroNull() {
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.Fecha_registroColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetFecha_registroNull() {
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.Fecha_registroColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsDepartamento_idNull() {
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.Departamento_idColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetDepartamento_idNull() {
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.Departamento_idColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsTipoNull() {
-                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByCarta.TipoColumn);
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.TipoColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetTipoNull() {
-                this[this.tablesp_ListarEVA_EvaluacionByCarta.TipoColumn] = global::System.Convert.DBNull;
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.TipoColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsMesNull() {
-                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByCarta.MesColumn);
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.MesColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetMesNull() {
-                this[this.tablesp_ListarEVA_EvaluacionByCarta.MesColumn] = global::System.Convert.DBNull;
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.MesColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsMontoNull() {
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.MontoColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetMontoNull() {
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.MontoColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsPuntosNull() {
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.PuntosColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetPuntosNull() {
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.PuntosColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsClasificacionNull() {
-                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByCarta.ClasificacionColumn);
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.ClasificacionColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetClasificacionNull() {
-                this[this.tablesp_ListarEVA_EvaluacionByCarta.ClasificacionColumn] = global::System.Convert.DBNull;
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.ClasificacionColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsEstadoNull() {
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.EstadoColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetEstadoNull() {
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.EstadoColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsSubCategoria_idNull() {
+                return this.IsNull(this.tablesp_ListarEVA_EvaluacionByPremio.SubCategoria_idColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetSubCategoria_idNull() {
+                this[this.tablesp_ListarEVA_EvaluacionByPremio.SubCategoria_idColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -5315,22 +5560,22 @@ namespace IncidentesWEB.Indicadores {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public class sp_ListarEVA_EvaluacionByCartaRowChangeEvent : global::System.EventArgs {
+        public class sp_ListarEVA_EvaluacionByPremioRowChangeEvent : global::System.EventArgs {
             
-            private sp_ListarEVA_EvaluacionByCartaRow eventRow;
+            private sp_ListarEVA_EvaluacionByPremioRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public sp_ListarEVA_EvaluacionByCartaRowChangeEvent(sp_ListarEVA_EvaluacionByCartaRow row, global::System.Data.DataRowAction action) {
+            public sp_ListarEVA_EvaluacionByPremioRowChangeEvent(sp_ListarEVA_EvaluacionByPremioRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public sp_ListarEVA_EvaluacionByCartaRow Row {
+            public sp_ListarEVA_EvaluacionByPremioRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -6167,7 +6412,7 @@ namespace IncidentesWEB.Indicadores.dsIndicadoresTableAdapters {
     [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-    public partial class sp_ListarEVA_EvaluacionByCartaTableAdapter : global::System.ComponentModel.Component {
+    public partial class sp_ListarEVA_EvaluacionByPremioTableAdapter : global::System.ComponentModel.Component {
         
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
         
@@ -6181,7 +6426,7 @@ namespace IncidentesWEB.Indicadores.dsIndicadoresTableAdapters {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public sp_ListarEVA_EvaluacionByCartaTableAdapter() {
+        public sp_ListarEVA_EvaluacionByPremioTableAdapter() {
             this.ClearBeforeFill = true;
         }
         
@@ -6278,16 +6523,22 @@ namespace IncidentesWEB.Indicadores.dsIndicadoresTableAdapters {
             this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
-            tableMapping.DataSetTable = "sp_ListarEVA_EvaluacionByCarta";
-            tableMapping.ColumnMappings.Add("ID", "ID");
-            tableMapping.ColumnMappings.Add("Empleado", "Empleado");
-            tableMapping.ColumnMappings.Add("SubCatgoria", "SubCatgoria");
-            tableMapping.ColumnMappings.Add("FechaReg", "FechaReg");
-            tableMapping.ColumnMappings.Add("Departamento", "Departamento");
+            tableMapping.DataSetTable = "sp_ListarEVA_EvaluacionByPremio";
+            tableMapping.ColumnMappings.Add("Evaluacion_id", "Evaluacion_id");
+            tableMapping.ColumnMappings.Add("Empleado_id", "Empleado_id");
+            tableMapping.ColumnMappings.Add("FUNCIONARIO_NOME", "FUNCIONARIO_NOME");
+            tableMapping.ColumnMappings.Add("SubCategoria_desc", "SubCategoria_desc");
+            tableMapping.ColumnMappings.Add("Fecha_registro", "Fecha_registro");
+            tableMapping.ColumnMappings.Add("Departamento_id", "Departamento_id");
             tableMapping.ColumnMappings.Add("Tipo", "Tipo");
             tableMapping.ColumnMappings.Add("Mes", "Mes");
-            tableMapping.ColumnMappings.Add("Año", "Año");
+            tableMapping.ColumnMappings.Add("Monto", "Monto");
+            tableMapping.ColumnMappings.Add("Anio", "Anio");
+            tableMapping.ColumnMappings.Add("Puntos", "Puntos");
             tableMapping.ColumnMappings.Add("Clasificacion", "Clasificacion");
+            tableMapping.ColumnMappings.Add("activo", "activo");
+            tableMapping.ColumnMappings.Add("Estado", "Estado");
+            tableMapping.ColumnMappings.Add("SubCategoria_id", "SubCategoria_id");
             this._adapter.TableMappings.Add(tableMapping);
         }
         
@@ -6304,7 +6555,7 @@ namespace IncidentesWEB.Indicadores.dsIndicadoresTableAdapters {
             this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "dbo.sp_ListarEVA_EvaluacionByCarta";
+            this._commandCollection[0].CommandText = "dbo.sp_ListarEVA_EvaluacionByPremio";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.StoredProcedure;
             this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@RETURN_VALUE", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.ReturnValue, 10, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._commandCollection[0].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Anio", global::System.Data.SqlDbType.VarChar, 7, global::System.Data.ParameterDirection.Input, 0, 0, null, global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -6316,7 +6567,7 @@ namespace IncidentesWEB.Indicadores.dsIndicadoresTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(dsIndicadores.sp_ListarEVA_EvaluacionByCartaDataTable dataTable, string Anio, string FUNCIONARIO_NOME, string lider_id) {
+        public virtual int Fill(dsIndicadores.sp_ListarEVA_EvaluacionByPremioDataTable dataTable, string Anio, string FUNCIONARIO_NOME, string lider_id) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((Anio == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -6347,7 +6598,7 @@ namespace IncidentesWEB.Indicadores.dsIndicadoresTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual dsIndicadores.sp_ListarEVA_EvaluacionByCartaDataTable GetData(string Anio, string FUNCIONARIO_NOME, string lider_id) {
+        public virtual dsIndicadores.sp_ListarEVA_EvaluacionByPremioDataTable GetData(string Anio, string FUNCIONARIO_NOME, string lider_id) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((Anio == null)) {
                 this.Adapter.SelectCommand.Parameters[1].Value = global::System.DBNull.Value;
@@ -6367,7 +6618,7 @@ namespace IncidentesWEB.Indicadores.dsIndicadoresTableAdapters {
             else {
                 this.Adapter.SelectCommand.Parameters[3].Value = ((string)(lider_id));
             }
-            dsIndicadores.sp_ListarEVA_EvaluacionByCartaDataTable dataTable = new dsIndicadores.sp_ListarEVA_EvaluacionByCartaDataTable();
+            dsIndicadores.sp_ListarEVA_EvaluacionByPremioDataTable dataTable = new dsIndicadores.sp_ListarEVA_EvaluacionByPremioDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
